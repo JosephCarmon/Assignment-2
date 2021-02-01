@@ -1,0 +1,24 @@
+
+
+
+class Assignment2
+{
+
+private:
+
+    int iArray2[5];
+    int iArray[];
+ 
+public:
+
+     Assignment2(); //Class Constructor
+     ~Assignment2(); //Class Destructor
+     void SetArrayPosition(int &, int &);
+     void SetArray1Position(int&,int&);
+     
+     
+     int GetArray1Position(int);
+     int GetArrayPosition(int &);
+
+
+};
